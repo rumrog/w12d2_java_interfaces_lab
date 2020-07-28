@@ -1,6 +1,6 @@
-public class Stereo extends Component implements IRadio, ICDplayer, IRecordDeck {
+public class Stereo extends Component implements IRadio, ICDplayer, IRecordDeck, IConnect {
 
-    private String name;
+    String name;
 
     public Stereo(String make, String model, int volume, String name){
         super(make, model, volume);
@@ -21,6 +21,10 @@ public class Stereo extends Component implements IRadio, ICDplayer, IRecordDeck 
 
     public String playCD(String CDname){
         return CDname;
+    }
+
+    public String connect(Stereo stereo){
+        return stereo.name;
     }
 
 }
