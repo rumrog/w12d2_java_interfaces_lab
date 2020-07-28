@@ -1,5 +1,6 @@
 public interface ICDplayer {
 
-  public long numberOfCDs(long numberOfCDs);
+  public int numberOfCDs(int numberOfCDs);
+  public String playCD(String CDname);
 
 }

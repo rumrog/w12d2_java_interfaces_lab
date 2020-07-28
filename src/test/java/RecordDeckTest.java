@@ -9,7 +9,7 @@ public class RecordDeckTest {
 
     @Before
     public void setUp(){
-        recordDeck = new RecordDeck();
+        recordDeck = new RecordDeck("Panasonic", "X10", 110);
     }
 
     @Test

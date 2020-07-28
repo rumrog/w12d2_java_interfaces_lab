@@ -9,7 +9,7 @@ public class RadioTest {
 
     @Before
     public void setUp(){
-        radio = new Radio();
+        radio = new Radio("Sony", "R8", 100);
     }
 
     @Test
